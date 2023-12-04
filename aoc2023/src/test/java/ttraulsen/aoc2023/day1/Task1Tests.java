@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-public class Task1Tests {
+class Task1Tests {
   @Test
   @DisplayName("day 1 task 1 computations")
   void testEmptyComputation() {

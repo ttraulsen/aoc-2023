@@ -12,7 +12,7 @@ public class ReadFile {
   }
 
   public static List<String> readFile(String path) {
-    List<String> lines = new ArrayList<String>();
+    List<String> lines = new ArrayList<>();
     String absolutePath = new File("").getAbsolutePath() + path;
     try (BufferedReader reader = new BufferedReader(new FileReader(absolutePath))) {
       String line;

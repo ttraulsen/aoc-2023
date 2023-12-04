@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-public class Task2Tests {
+class Task2Tests {
 
   @ParameterizedTest(name = "{0} should return {1}")
   @CsvSource({
