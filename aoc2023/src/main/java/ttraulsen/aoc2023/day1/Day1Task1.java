@@ -26,7 +26,7 @@ public class Day1Task1 {
     return sum;
   }
 
-  public static Integer calibrateLine(String line) {
+  public Integer calibrateLine(String line) {
     Matcher firstDigit = Pattern.compile("\\d").matcher(line);
     Matcher lastDigit = Pattern.compile("\\d").matcher(new StringBuilder(line).reverse().toString());
     if (!firstDigit.find()) {
