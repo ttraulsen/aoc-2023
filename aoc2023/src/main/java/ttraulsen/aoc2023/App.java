@@ -4,6 +4,7 @@ import ttraulsen.aoc2023.day1.Day1Task1;
 import ttraulsen.aoc2023.day1.Day1Task2;
 import ttraulsen.aoc2023.day2.Day2Task1;
 import ttraulsen.aoc2023.day2.Day2Task2;
+import ttraulsen.aoc2023.day3.Day3Task1;
 
 /**
  * Hello world!
@@ -14,9 +15,14 @@ public class App {
         System.out.println("Day1 task1: " + d1t1.calculateTask());
         Task d1t2 = new Day1Task2(ReadFile.readFile("/data/Day1/input-day1.txt"));
         System.out.println("Day1 task2: " + d1t2.calculateTask());
+
         Task d2t1 = new Day2Task1(ReadFile.readFile("/data/Day2/input-day2.txt"));
-        System.out.println("Day2 task2: " + d2t1.calculateTask());
+        System.out.println("Day2 task1: " + d2t1.calculateTask());
         Task d2t2 = new Day2Task2(ReadFile.readFile("/data/Day2/input-day2.txt"));
         System.out.println("Day2 task2: " + d2t2.calculateTask());
+
+        Task d3t1 = new Day3Task1(ReadFile.readFile("/data/Day3/input-day3.txt"));
+        System.out.println("Day3 task1: " + d3t1.calculateTask());
+
     }
 }
